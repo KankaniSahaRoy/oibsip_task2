@@ -1,0 +1,217 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-image: url("img2.jpg");
+    height: 150vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: rgba(0,0,0,0.5);
+    position:fixed;
+    width: 220vh;
+    top: 0;
+    font-weight: bold;
+
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 20px 0px;
+}
+ul li{
+  font-family:century;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+ul li a{
+    text-decoration: none;
+    color:white ;
+    padding: 0px 25px;
+    transition: all.5s ease;
+
+}
+ul li a:hover{
+    background-color: pink;
+    color: blue;
+    box-shadow: 0 0 10px white;
+}
+.text{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    position: absolute;
+    top:50%;
+    right: 10px;
+   color:white;
+   margin-top: 50px;
+   font-size: 40px;
+   font-style: oblique;
+   font-weight: bold;
+
+}
+
+.btn{
+    background-color: white;
+    transition: 0.6s ease;
+    border: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 40px;
+    transition: .4s;
+    
+}
+ .btn:hover{
+    background-color: pink;
+    border: 2px solid blue;
+    cursor: pointer;
+    transform: scale(1.2);
+
+}
+.ab{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.pic{
+    font-size: 30px;
+    font-weight: bold;
+}
+h2{
+    color: purple;
+    display: flex;
+    font-size: 35px;
+    float: left;
+    font-weight: bold;
+}
+.pic img{
+    margin-bottom: 20px;
+}
+.cd{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    text-align: center;
+    width: 210vh;
+    padding: 50px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid: gap 1px;
+    padding: 1rem;
+    background-color: bisque;
+
+}
+.skill-box{
+    padding: 1rem;
+    color: #add;
+    cursor: pointer;
+}
+h3{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.ef{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+
+} 
+.gh{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    box-direction: right;
+    align-items:center;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    
+    
+    
+}
+.input{
+    padding: 12px;
+    margin: 15px;
+    width:30%;
+    border:none;
+    outline:none;
+}
+.msg{
+    width: 20%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+
+}
+#send{
+    padding:10px 30px;
+    width: 10%;
+    margin: 20px;
+    border:none;
+    outline:none;
+    margin-top: 8px;
+    display:inline-block;
+    border-radius: 30px;
+    background-color: lightskyblue;
+    color: blue;
+    position: absolute;
+    margin-left: 640px;
+    
+
+
+}
+#mail{
+    display: inline-block;
+    width: 50%;
+    padding: 14px 130px 14px 15px;
+    border: 4px solid aquamarine;
+    outline: none;
+    border-radius: 30px;
+
+}
+
+
+
+
+  
